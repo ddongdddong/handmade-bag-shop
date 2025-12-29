@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Handmade Bag Shop</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Pretendard', Arial, sans-serif;
+      background-color: #f7f5f2;
+      color: #3b3b3b;
+    }
+    header {
+      background: #fff;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #e0dedb;
+    }
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #3b3b3b;
+      font-weight: 500;
+    }
+    .hero {
+      padding: 80px 40px;
+      background: #e9e4dc;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 18px;
+    }
+    .section {
+      padding: 60px 40px;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 30px;
+    }
+    .product-card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+    .product-image {
+      height: 200px;
+      background: #ddd;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+    .product-card h3 {
+      margin: 0 0 8px 0;
+    }
+    .product-card span {
+      font-weight: bold;
+    }
+    footer {
+      background: #3b3b3b;
+      color: #fff;
+      padding: 40px;
+      text-align: center;
+      font-size: 14px;
+    }
+    /* Wireframe box guide */
+    .wf-label {
+      font-size: 12px;
+      color: #888;
+      margin-bottom: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Wireframe -->
+  <header>
+    <div><strong>LOGO</strong></div>
+    <nav>
+      <a href="#">Shop</a>
+      <a href="#">About</a>
+      <a href="#">Story</a>
+      <a href="#">Q&A</a>
+      <a href="#">Cart</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="wf-label">[메인 비주얼 영역]</div>
+    <h1>하루를 담는 가방</h1>
+    <p>손으로 천천히 만든, 오래 곁에 둘 가방</p>
+  </section>
+
+  <!-- Product List -->
+  <section class="section">
+    <div class="wf-label">[대표 상품 목록]</div>
+    <div class="products">
+      <div class="product-card">
+        <div class="product-image"></div>
+        <h3>린넨 토트백</h3>
+        <span>₩89,000</span>
+      </div>
+      <div class="product-card">
+        <div class="product-image"></div>
+        <h3>캔버스 숄더백</h3>
+        <span>₩92,000</span>
+      </div>
+      <div class="product-card">
+        <div class="product-image"></div>
+        <h3>미니 크로스백</h3>
+        <span>₩76,000</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Brand Story -->
+  <section class="section" style="background:#fff;">
+    <div class="wf-label">[브랜드 스토리 요약]</div>
+    <h2>정성으로 만드는 가방</h2>
+    <p>
+      하루에 많이 만들지 않아요. 대신 오래 쓰일 수 있게 만들어요.
+      원단 선택부터 바느질까지 모든 과정에 손이 닿아 있어요.
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="wf-label">[푸터 영역]</div>
+    ⓒ Handmade Bag Shop · 고객센터 000-0000-0000
+  </footer>
+
+</body>
+</html>
+
